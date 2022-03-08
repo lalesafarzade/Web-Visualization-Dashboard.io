@@ -1,0 +1,309 @@
+
+/* general */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-color:#15588b00;
+  margin: 4rem 0;
+}
+
+.navi.scrolled {
+  background-color: #8f8391 !important;
+  transition: background-color 200ms linear;
+}
+
+.navi.scrolled .nav-link {
+  color:rgba(85, 85, 85, 0);
+}
+
+
+.title{
+  font-family: "Montserrat-Bold"; 
+  color:#288da3 ;  
+}
+
+hr {
+  height: 1px; 
+} 
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+#nav-text,#title-comp{
+  font-family: "Ubuntu";
+    color:#e7ebee ;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+ p{
+  color: rgb(2, 2, 2);
+  font-family: "Montserrat-Bold";
+  font-size: 18px;
+  }
+ 
+
+#nav-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  color:#e7ebee ;
+}
+
+.zooming:hover{
+  transform: scale(2);
+}
+
+.active:hover,.panel:hover{
+  border-color: #FDCEB9;
+  border-style: solid;
+}
+
+
+/* left box */
+
+.vizualization{
+  width:50% ;
+  height:60% ;
+  
+}
+
+.viz2{
+  width:100% ;
+}
+
+.viz3{
+  width:100% ;
+  height:70% ;
+  margin:5% .5% 5% ;  
+}
+
+#panel-figs1 {
+  background-color: #3b524700;
+  height: 90%;
+  width:80%; 
+  margin-left: 1.5rem;
+  margin-top: .7rem;
+  
+}
+
+#panel-figs2 {
+  background-color: #1b3fa300;
+  height: 90%;
+  width:80%; 
+  margin-left: 1.5rem;
+  margin-top: .7rem;
+}
+
+#panel-figs3 {
+  background-color: #4d3b5200;
+  height: 90%;
+  width:80%; 
+  margin-left: 1.5rem;
+  margin-top: .7rem;
+}
+
+#panel-figs4 {
+  background-color: #9aa31b00;
+  height: 90%;
+  width:80%; 
+  margin-left: 1.5rem;
+  margin-top: .7rem;
+  
+}
+
+#p-{
+   line-height: 1.7;
+    text-align: justify;
+    text-justify:inter-word;
+    
+}
+
+
+.box1 {
+  border-radius: 1rem;
+  margin-top: 6rem; 
+  margin-bottom: 2rem; 
+  
+  padding: 30px 20px ; 
+  color:black;
+  background-color: #e7ebee;
+}
+
+
+/* right box */
+.box2 {
+  border-radius: 1rem;
+  margin-top: 6rem; 
+  margin-bottom: 2rem; 
+  padding: 10px 20px ; 
+  color:black;
+  background-color: #e7ebee00;
+  
+}
+
+.box2:hover, .box-comp:hover{
+  background-color: #288da3;
+}
+
+
+/* comparison box */
+.box-comp {
+  border-radius: 1rem;
+  margin-top: 5rem; 
+  margin-bottom: 2rem; 
+  padding: 10px 20px ; 
+  color:black;
+  background-color: #e7ebee00;
+  
+}
+
+.box-wind{
+  border-radius: 1rem;
+  margin-top: 6rem; 
+  margin-bottom: 2rem; 
+  padding: 30px 30px ; 
+  color:black;
+  background-color: #e7ebee;
+}
+
+
+
+  
+/* table page */
+
+.table-fixed tbody {
+    height: 300px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+    float: center;
+    position: relative;
+
+    
+}
+
+.t-row{
+  font-family: "Montserrat-Bold";
+  font-size: .65rem;
+}
+
+.table{
+  padding: 2rem 20rem 20rem;
+}
+
+.t-Data{
+  font-family: "Ubuntu"; 
+  color:#288da3 ;
+  font-size: 1.2 rem;
+  font-weight: bold
+}
+
+.t-Data2{
+  font-family: "Ubuntu"; 
+  color:#e7ebee ;
+  font-size: 1.2 rem;
+  font-weight: bold
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #FDCEB9;
+}
+
+#data-col{
+  background-color: #FDCEB9;
+  margin-top: 10rem; 
+  margin-bottom: 10rem; 
+  padding: 10px 20px 10px; 
+  color:black;
+  
+}
+
+
+
+/* footer */
+
+#footer{
+  margin-top: 2.5rem 1rem;
+  text-align: center;
+  color: #e7ebee;
+
+}
+.social-icon {
+  color: #e7ebee;
+  border-color: black;
+  margin:0 .5rem; 
+}
+
+.social-icon:hover,#footer:hover,#nav-brand:hover,#nav-text:hover,.t-Data:hover {
+  color: #FDCEB9;
+}
+
+
+.t-title{
+  font-family: "Ubuntu"; 
+  color:#e7ebee ;
+  font-size: .85rem;
+  background-color: #288da3;
+}
+
+#f_cap{
+  font-family: "Ubuntu"; 
+  color:#e7ebee ;
+  font-size: .85rem;
+}
+
+
+
+/* media */
+
+@media only screen and (max-width: 991px) {
+  .navbar{
+      background-color: #288da3;
+    }   
+    #title-comp{
+      padding-top: 3rem;
+    }
+
+  #footer ,#f_cap,.social-icon{
+    color:#288da3;
+  }
+
+  .box2{
+    margin-top: 2rem;
+  }
+
+  #panel-figs4 { 
+    margin-left: 10%;
+    margin-top: 1.2rem;
+  }
+
+  #panel-figs3 { 
+    margin-left: 10%;
+    margin-top: 1.2rem;
+  }
+
+  #panel-figs2 { 
+    margin-left: 10%;
+    margin-top: 1.2rem;
+  }
+     
+  #panel-figs1 { 
+    margin-left: 10%;
+    margin-top: 1.2rem;
+  }
+
+  .tabi{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+
+
+
+
