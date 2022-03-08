@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* media */
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 960px) {
   .navbar{
       background-color: #288da3;
     }   
@@ -272,11 +272,14 @@ h1, h2, h3, h4, h5, h6 {
       padding-top: 3rem;
     }
 
-  #footer ,#f_cap,.social-icon{
+  #footer ,.social-icon{
     color:#288da3;
+    
   }
 
-  
+  #f_cap{
+    font-size: 70%;
+  }
   
 
   .box2{
