@@ -121,6 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 .box1 {
   border-radius: 1rem;
   margin-top: 6rem; 
@@ -168,7 +169,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #e7ebee;
 }
 
-
+.p-comp{
+  color:#e7ebee ;
+}
 
   
 /* table page */
@@ -231,7 +234,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 2.5rem 1rem;
   text-align: center;
   color: #e7ebee;
-
 }
 .social-icon {
   color: #e7ebee;
@@ -259,6 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+
 /* media */
 
 @media only screen and (max-width: 991px) {
@@ -272,6 +275,9 @@ h1, h2, h3, h4, h5, h6 {
   #footer ,#f_cap,.social-icon{
     color:#288da3;
   }
+
+  
+  
 
   .box2{
     margin-top: 2rem;
@@ -301,6 +307,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 10%;
     margin-right: 10%;
   }
+
+  
 }
 
 
