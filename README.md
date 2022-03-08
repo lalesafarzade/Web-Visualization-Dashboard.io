@@ -7,7 +7,7 @@
 Data is more powerful when we share it with others! Let's take what I've learned about HTML and CSS to create a dashboard showing off the analysis we've done.[Click me!](https://github.com/lalesafarzade/python-api-challenge)
 
 
-![Images/landingResize.png](Images/web.gif)
+![Images/landingResize.png](Images/webb.gif)
 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
