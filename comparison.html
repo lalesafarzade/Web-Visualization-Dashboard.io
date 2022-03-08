@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Comparison</title>
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script>$(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navi");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });</script>
+</head>
+
+<body background="Resources\assets\images\bg (6).jpg">
+
+  <!-- Nav Bar -->
+  <section id="title">
+    <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light navi">
+        <h3><a class="navbar-brand active" id="nav-brand" href="index.html">Latitude</a></h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" id="nav-text" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-text" href="comparisons.html">Comparision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-text" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </section>
+
+  <section id="main-body">
+    <div class="container">
+      <div class="row">
+        
+    
+        <div class="col-lg-12 col-md-12">
+          <div class="box-comp">
+          <!--<div class="panel" id="panel-col2"> -->
+            <br><h3 class="t-Data2" style="text-align: center;">Comparision: Latitude vs X</h3>
+            <hr>
+            <p style="text-align: left;">Click any plot to get an in-depth analysis!</p><br>
+            <div class="row" style="padding: 30px 0;">
+              <div class="col-lg-6 col-md-12">
+                <div class="panel" id="panel-figs1"><a href="temperature.html"><img src="Resources\assets\images\Fig1.png" alt="main" class="viz2  img-thumbnail"><figcaption class="figure-caption" id="f_cap">vs.Max Temperature</figcaption></a></div>
+                   
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="panel" id="panel-figs2"><a href="humidity.html"><img src="Resources\assets\images\Fig2.png" alt="main" class="viz2  img-thumbnail"><figcaption class="figure-caption" id="f_cap">vs.Humidity</figcaption></a></div>
+              </div>
+            </div>
+            <div class="row" style="padding: 30px 0;">
+              <div class="col-lg-6 col-md-12">
+                <div class="panel" id="panel-figs3"><a href="cloudiness.html"><img src="Resources\assets\images\Fig3.png" alt="main" class="viz2  img-thumbnail"><figcaption class="figure-caption" id="f_cap">vs.Cloudiness</figcaption></a></div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="panel" id="panel-figs4"><a href="wind.html"><img src="Resources\assets\images\Fig4.png" alt="main" class="viz2  img-thumbnail"><figcaption class="figure-caption" id="f_cap">vs.Wind Speed</figcaption></a></div>
+              </div>
+
+            </div>
+              
+    
+            
+    
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+  </section>
+  
+ 
+  <footer class="footer-section" id="footer">
+    <div class="container">  
+      <br>
+      <br>
+      <a href="https://www.linkedin.com/in/lalehsafarzadeh/"><i class="social-icon fab fa-linkedin"></i></a>
+      <!--<i class="social-icon fas fa-address-card"></i>-->
+      <a href = "mailto: lalesafarzade@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
+      <a href="https://github.com/lalesafarzade"><i class="social-icon fab fa-github"></i></a><br>
+      <p id="footer">© Copyright Laleh Safarzadeh 2022.</p>
+      
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
