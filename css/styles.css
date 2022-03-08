@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold
 }
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: #FDCEB9;
+  background-color: #8f8391;
 }
 
 #data-col{
